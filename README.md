@@ -23,3 +23,26 @@ nano $HOME/0g-storage-node/run/config.toml
 ### Get New RPC from here : https://www.astrostake.xyz/0g-status
 
 
+## Restarting node Next day
+
+### Reload
+sudo systemctl daemon-reload
+
+### Enable
+sudo systemctl enable zgs
+
+### Start service
+sudo systemctl start zgs
+
+
+# To Stop & Delete your Node 
+
+## Stop
+sudo systemctl stop zgs
+
+## Delete
+sudo systemctl disable zgs
+sudo rm /etc/systemd/system/zgs.service
+rm -rf $HOME/0g-storage-node
+
+
