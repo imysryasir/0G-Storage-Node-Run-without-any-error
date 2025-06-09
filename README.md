@@ -8,7 +8,7 @@
 # Full Video Guide : https://t.me/kind_cr
 
 ## First Thing to do is create a new Burner wallet and take faucets
-    Faucet Link : https://faucet.0g.ai/
+### Faucet Link : https://faucet.0g.ai/
 ## Deploy
 ```
 curl -o 0GNodeSetup.sh https://raw.githubusercontent.com/imysryasir/0G-Storage-Node-Run-without-any-error/refs/heads/main/0gNodeSetup.sh &&
