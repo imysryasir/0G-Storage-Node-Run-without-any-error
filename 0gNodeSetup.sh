@@ -48,7 +48,7 @@ read -e -p "Private Key: " PRIVATE_KEY
 
 # Keep asking until valid input is received
 while [[ ! "$PRIVATE_KEY" =~ ^0x[a-fA-F0-9]{64}$ ]]; do
-  echo "❌ Invalid private key format. Must start with 0x and be 66 characters long."
+  echo "❌ Invalid private key format. Do not Add 0x In Your Private Key."
   read -e -p "Please re-enter your private key: " PRIVATE_KEY
 done
 
