@@ -38,7 +38,7 @@ sudo systemctl start zgs
 # To Stop & Delete your Node 
 
 ## Stop
-sudo systemctl stop zgs
+ sudo systemctl stop zgs
 
 ## Delete
 sudo systemctl disable zgs
