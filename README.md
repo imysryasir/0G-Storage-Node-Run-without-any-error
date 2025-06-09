@@ -26,23 +26,28 @@ nano $HOME/0g-storage-node/run/config.toml
 ## Restarting node Next day
 
 ### Reload
-   sudo systemctl daemon-reload
-
+```
+sudo systemctl daemon-reload
+```
 ### Enable
-   sudo systemctl enable zgs
-
+```
+sudo systemctl enable zgs
+```
 ### Start service
-   sudo systemctl start zgs
-
+```
+sudo systemctl start zgs
+```
 
 # To Stop & Delete your Node 
 
 ## Stop
-   sudo systemctl stop zgs
-
+```
+sudo systemctl stop zgs
+```
 ## Delete
-   sudo systemctl disable zgs
+```
+sudo systemctl disable zgs
 sudo rm /etc/systemd/system/zgs.service
 rm -rf $HOME/0g-storage-node
-
+```
 
