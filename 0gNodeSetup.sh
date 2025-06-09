@@ -1,7 +1,13 @@
 #!/bin/bash
 
 # 0G Storage Node Setup Script
-# Author: Mohsin | https://github.com/mohsinsmsn
+
+sudo apt update -qq > /dev/null 2>&1 && \
+sudo apt install -y figlet ruby > /dev/null 2>&1 && \
+sudo gem install lolcat > /dev/null 2>&1 && \
+figlet -f slant "Kind Crypto" | lolcat && \
+sleep 5
+
 
 set -euo pipefail
 
