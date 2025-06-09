@@ -64,3 +64,4 @@ sudo rm /etc/systemd/system/zgs.service
 rm -rf $HOME/0g-storage-node
 ```
 
+## Join TG For Updates : https://t.me/kind_cr
