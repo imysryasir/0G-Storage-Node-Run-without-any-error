@@ -70,22 +70,7 @@ echo ""
 echo "🌐 Measuring RPC Endpoint ping times... Please wait."
 
 declare -a RPC_LIST=(
-  "https://lightnode-json-rpc-0g.grandvalleys.com"
-  "https://0g-galileo-evmrpc.corenodehq.xyz/"
-  "https://0g.json-rpc.cryptomolot.com/"
-  "https://0g-evmrpc-galileo.coinsspor.com/"
-  "https://evm-rpc-shayneval.xyz/"
-  "https://evm-0gchaind.onenov.xyz/"
-  "https://og-testnet-evm.itrocket.net:443"
-  "https://0g.mhclabs.com/"
-  "https://0g-evm-rpc.zeycanode.com/"
-  "https://0g.galileo.zskw.xyz/"
-  "https://0g-evmrpc-galileo.coinsspor.com/"
-  "https://evmrpc-0g-testnet.unitynodes.app/"
-  "https://evm-rpc-0g.obiwank107.xyz/"
-  "https://0g-galileo.shachopra.com//"
-  "https://0g-evmrpc-galileo.komado.xyz/"
-  "https://0g-galileo.xzid.xyz/"
+https://evmrpc-testnet.0g.ai
 )
 
 declare -a SORTED_RPCS
